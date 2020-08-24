@@ -1,6 +1,5 @@
 import React from "react";
-
-import { Button } from 'antd';
+import { CarOutlined } from '@ant-design/icons';
 
 import "./Header.css";
 
@@ -12,7 +11,22 @@ export function Header() {
           <img src="./logo.svg" alt="Logo" />
         </div>
         <div className="header__nav">
-          <Button>Hola</Button>
+          <div className='item'>
+            <CarOutlined />
+            <div className='text'>Alojamiento</div>
+          </div>
+          <div className='item'>
+            <CarOutlined />
+            <div className='text'>Vuelos</div>
+          </div>
+          <div className='item active'>
+            <CarOutlined />
+            <div className='text'>Pasajes</div>
+          </div>
+          <div className='item'>
+            <CarOutlined />
+            <div className='text'>Aviones</div>
+          </div>
         </div>
       </div>
     </header>

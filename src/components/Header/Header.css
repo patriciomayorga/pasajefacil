@@ -1,3 +1,54 @@
 header {
-	background: red
+	background: #fff;
+	padding: 10px 0;
+}
+
+header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__top{
+	margin-bottom: 1em;
+}
+.header__top img {
+	width: 150px;
+}
+
+.header__nav {
+	display: flex;
+}
+
+.header__nav {
+	display: flex;
+}
+.header__nav .item{
+	text-align: center;
+	min-width: 64px;
+	margin-right: 1em;
+	color: rgba(0,0,0,.7);
+	transition: all .3s;
+}
+.header__nav .item .anticon{
+	font-size: 22px;
+	padding: 7px;
+	border-radius: 30px;
+}
+.header__nav .item .text{
+	font-size: 14px;
+	font-weight: 500;
+	transition: all .3s;
+}
+.header__nav .item:hover,
+.header__nav .item.active{
+	color: rebeccapurple;
+	cursor: pointer;
+	transition: all .3s;
+}
+.header__nav .item:hover .anticon,
+.header__nav .item.active .anticon{
+	background: rebeccapurple;
+	color: #fff;
+	transition: all .3s;
 }

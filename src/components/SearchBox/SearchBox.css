@@ -1,0 +1,32 @@
+.SearchBoxOut {
+  padding: 1em;
+  margin-bottom: 2em;
+}
+.SearchBox {
+  background: purple;
+  width: 100%;
+  padding: 1.2em 1em;
+  border-radius: 5px;
+}
+.SearchBox h1 {
+  color: #ffffff;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+.SearchBox h4 {
+  color: #ffffff;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.SearchBox p {
+  color:rgba(255,255,255,.85);
+  font-size: 17px;
+  margin-bottom: 0;
+}
+.SearchBox .ant-radio-wrapper {
+  padding: .6em 0;
+  color: #ffffff;
+}
+.SearchBox .ant-row {
+  margin-bottom: 2em;
+}
