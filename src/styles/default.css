@@ -1,0 +1,10 @@
+@import '~antd/dist/antd.css';
+
+body {
+	background: #ddd
+}
+
+.container {
+	width: 1024px;
+	margin: auto;
+}
