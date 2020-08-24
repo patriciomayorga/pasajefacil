@@ -19,7 +19,8 @@
     "eject": "react-scripts eject",
     "format": "prettier --write \"src/**/*.js\" --write \"package.json\"",
     "format:check": "prettier --check \"src/**/*.js\" --check \"package.json\"",
-    "enviar": "git add . && git commit -m 'adding changes' && git push origin master"
+    "enviar": "git add . && git commit -m \"adding new changes\" && git push origin master",
+    "recibir": "git pull origin master"
   },
   "eslintConfig": {
     "extends": "react-app"
